@@ -1,0 +1,58 @@
+body {
+  background-color: #a0a0a0;
+  margin: 8px;
+}
+
+
+
+header {
+  background-image: url(imgs/HeaderIMG.webp);
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: calc(0.5625*100vw);
+  justify-content: space-between;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#Title {
+  color: white;
+  font-family: "Lilita One", sans-serif;
+  font-size: calc(1rem + 4vw);
+}
+
+.HeaderIcon1 {
+  width: 4vw;
+  height:fit-content;
+}
+
+.HeaderIcon2 {
+  width: 6vw;
+  height: fit-content;
+}
+
+main {
+  background-color: #040406;
+}
+
+#Description{
+    text-align: center;
+    color:White;
+}
+
+#Explanation {
+  color: white;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  justify-content: space-between;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 8px;
+}
+
+/* wdsad
+background-position: bottom 100% right 0px;
