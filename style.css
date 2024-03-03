@@ -35,6 +35,7 @@ header {
 .HeaderIcon1 {
   width: 4vw;
   height:fit-content;
+  margin: 1%
 }
 
 .HeaderIcon2 {
@@ -66,15 +67,52 @@ main {
 
 #product-container {
   margin: 1vw;
-  gap: 5%;
-  border: solid white 0.1px;
+  border: solid white 1px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.carIMG1 {
+  height: 20vh;
+}
+/* De 2 första bilarna verkar vara ungefär samma storlek
+3 och 5 verkar också vara ungefär samma storlek
+4 och 6 är ungefär lika stora också, då de båda var lite större än alla andra  */
+.carIMG2 {
+  height: 23vh;
+}
+
+.carIMG3 {
+  height: 18vh;
+}
+
+
+.Products {
+  margin: 5%;
+  background-color: #292929;
+  border: solid white 1px;
+  text-align: center;
+}
+
+.ProductText{
+  justify-content: end;
+}
+
+.price {
+}
+
+.button{
+  background-color: white;
+  cursor: pointer;
+}
+
+
 @media (max-width: 1000px) {
   #product-container {
     grid-template-columns: 1fr 1fr;
+  }
+  .carIMG {
+    width: 35vw;
   }
 }
 
@@ -82,20 +120,9 @@ main {
   #product-container {
     grid-template-columns: 1fr;
   }
-}
-
-.Products {
-  margin: 5%;
-  background-color: #292929;
-  border: solid white 1px;
-}
-
-.carIMG {
-  width: 85%;
-  place-items: center;
-}
-
-.price {
+  .carIMG {
+    width: 80vw;
+  }
 }
 
 /* wdsad
