@@ -1,6 +1,14 @@
+
+header, 
+
+
+h1, h2, h3 {
+  color:white;
+}
+
 body {
-  background-color: #a0a0a0;
-  margin: 8px;
+  background-color: #292929;
+  margin: 1vw;
   display:flex; 
   flex-direction: column;
 }
@@ -56,5 +64,40 @@ main {
   font-size: 8px;
 }
 
+#product-container {
+  margin: 1vw;
+  gap: 5%;
+  border: solid white 0.1px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media (max-width: 1000px) {
+  #product-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  #product-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.Products {
+  margin: 5%;
+  background-color: #292929;
+  border: solid white 1px;
+}
+
+.carIMG {
+  width: 85%;
+  place-items: center;
+}
+
+.price {
+}
+
 /* wdsad
 background-position: bottom 100% right 0px;
+Opacity
