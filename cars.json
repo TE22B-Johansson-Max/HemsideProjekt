@@ -1,0 +1,28 @@
+{
+    "cars": [
+        {
+            "name": "Pagani Huayra",
+            "price": 2499 
+        },
+        {
+            "name": "Lamborghini Aventador",
+            "price": 1100
+        },
+        {
+            "name": "Porsche GT3RS",
+            "price": 900
+        },
+        {
+            "name": "BMW M2",
+            "price": 599
+        },
+        {
+            "name": "Volkswagen Golf GTI",
+            "price": 350
+        },
+        {
+            "name": "Volvo 142",
+            "price": 29
+        }
+    ]
+}
