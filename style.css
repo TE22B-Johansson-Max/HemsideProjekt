@@ -37,6 +37,7 @@ header {
   color: white;
   font-family: "Lilita One", sans-serif;
   font-size: calc(1rem + 4vw);
+  text-align: center;
 }
 
 .HeaderIcon1 {
@@ -48,6 +49,7 @@ header {
 .HeaderIcon2 {
   width: 6vw;
   height: fit-content;
+  cursor: pointer;
 }
 
 main {
@@ -80,17 +82,17 @@ main {
 }
 
 .carIMG1 {
-  height: 12vw;
+  height: 15vw;
 }
 /* De 2 första bilarna verkar vara ungefär samma storlek
 3 och 5 verkar också vara ungefär samma storlek
 4 och 6 är ungefär lika stora också, då de båda var lite större än alla andra  */
 .carIMG2 {
-  height: 12vw;
+  height: 13vw;
 }
 
 .carIMG3 {
-  height: 9vw;
+  height: 11vw;
 }
 
 
@@ -107,6 +109,7 @@ main {
   position: absolute; bottom:0; right: 50%;
   transform: translateX(50%);
   text-align: center;
+  font-size: calc(0.2vw + 1.15rem);
 }
 
 .button{
@@ -136,18 +139,17 @@ main {
   #product-container {
     grid-template-columns: 1fr;
   }
-  .carIMG2, .carIMG3 {
-    height: 30vw;
-  }
-  .carIMG1 {
+  .carIMG3 {
     height: 35vw;
+  }
+  .carIMG1, .carIMG2 {
+    height: 40vw;
   }
 }
 footer {
   margin-top: 5vw;
   margin-bottom: 5vw;
   text-align: center;
-  justify-content: space-between;
 }
 
 /* wdsad
