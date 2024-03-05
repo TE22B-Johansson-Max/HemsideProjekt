@@ -8,10 +8,8 @@
     <script defer src="script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -26,57 +24,74 @@
         <h3>Förklaring 2</h3>
         <h3>Förklaring 3</h3>
       </div>
-      <div id="product-container">
+      <div id="product-container" class="saira">
           <!-- 1 -->
           <div class ="Products">
             <img class="carIMG1" src="cars/huayra.webp" alt="Pagani Huayra"/>
-            <h3 class="name">Pagani Huayra</h3>
-            <h3 class="price">2 499 <span>kr/h</span></h3>
-            <button onclick="AddToCart(0)" class="button">Buy</button>
+            <div class="ProductText">
+              <h3 class="name">Pagani Huayra</h3>
+              <h3 class="price">2 500 <span>kr/h</span></h3>
+              <button onclick="AddToCart(0)" class="button">Buy</button>
+            </div>
           </div>
 
           <!-- 2 -->
           <div class ="Products">
-            <img class="carIMG1" src="cars/aventador.webp" alt="Lamborghini Aventador"/>
-            <h3 class="name">Lamborghini Aventador</h3>
-            <h3 class="price">1 100 <span>kr/h</span></h3>
-            <button onclick="AddToCart(1)" class="button">Buy</button>
+            <img class="carIMG3" src="cars/aventador.webp" alt="Lamborghini Aventador"/>
+            <div class="ProductText">
+              <h3 class="name">Lamborghini Aventador</h3>
+              <h3 class="price">1 100 <span>kr/h</span></h3>
+              <button onclick="AddToCart(1)" class="button">Buy</button>
+            </div>
           </div>
 
           <!-- 3 -->
           <div class ="Products">
-            <img class="carIMG2" src="cars/gt3rs.webp" alt="Porsche GT3RS"/>
-            <h3 class="name">Porsche GT3RS</h3>
-            <h3 class="price">800 <span>kr/h</span></h3> 
-            <button onclick="AddToCart(2)" class="button">Buy</button>
+            <img class="carIMG1" src="cars/gt3rs.webp" alt="Porsche GT3RS"/>
+            <div class="ProductText">
+              <h3 class="name">Porsche GT3RS</h3>
+              <h3 class="price">799 <span>kr/h</span></h3> 
+              <button onclick="AddToCart(2)" class="button">Buy</button>
+            </div>
           </div>
 
           <!-- 4 -->
           <div class ="Products">
             <img class="carIMG3" src="cars/bmwM2.webp" alt="BMW M2"/>
-            <h3 class="name">BMW M2</h3>
-            <h3 class="price">599 <span>kr/h</span></h3>
-            <button onclick="AddToCart(3)" class="button">Buy</button>
+            <div class="ProductText">
+              <h3 class="name">BMW M2</h3>
+              <h3 class="price">599 <span>kr/h</span></h3>
+              <button onclick="AddToCart(3)" class="button">Buy</button>
+            </div>
           </div>
 
           <!-- 5 -->
           <div class ="Products">
             <img class="carIMG2" src="cars/volkswagenGolf.webp" alt="Volkswagen Golf GTI"/>
-            <h3 class="name">Volkswagen Golf GTI</h3>
-            <h3 class="price">350 <span>kr/h</span></h3>
-            <button onclick="AddToCart(4)" class="button">Buy</button>
+            <div class="ProductText">
+              <h3 class="name">Volkswagen Golf GTI</h3>
+              <h3 class="price">349 <span>kr/h</span></h3>
+              <button onclick="AddToCart(4)" class="button">Buy</button>
+            </div>
           </div>
 
           <!-- 6 -->
           <div class ="Products">
             <img class="carIMG3" src="cars/Volvo142.webp" alt="Volvo 142"/>
-            <h3 class="name">Volvo 142</h3>
-            <h3 class="price">29 <span>kr/h</span></h3>
-            <button onclick="AddToCart(5)" class="button">Buy</button>
+            <div class="ProductText">
+              <h3 class="name">Volvo 142</h3>
+              <h3 class="price">29 <span>kr/h</span></h3>
+              <button onclick="AddToCart(5)" class="button">Buy</button>
+            </div>
           </div>
 
         
       </div>
+      <br>
+      <footer>
+        <p style="color:white;"><a href="https://policies.google.com/terms?hl=en-US">Privacy & Terms</a></p>
+        
+      </footer>
     </main>
   </body>
 </html>
